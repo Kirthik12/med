@@ -1,0 +1,112 @@
+.user-navbar {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  height: 100vh;
+  width: 250px;
+  padding: 20px 0;
+  background-color: #fff;
+  color: #333;
+  position: fixed; 
+  top: 0;
+  left: 0;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+  z-index: 1000; /* Ensure it stays on top */
+  font-family: 'Arial', sans-serif;
+  overflow: hidden;
+}
+
+.navbar-logo {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.navbar-logo h1 {
+  margin: 0;
+  font-size: 24px;
+  color: #4a96e6;
+}
+
+.logo-container {
+  position: fixed;
+  top: 1rem; /* Adjust this value to position the logo vertically */
+  left: 1rem; /* Adjust this value to position the logo horizontally */
+  z-index: 1000;
+  width: 10%; /* Ensures the logo stays on top */
+}
+
+.navbar-user {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 10px;
+  border-bottom: 1px solid #e0e0e0;
+  margin-bottom: 20px;
+}
+
+.user-profile-pic {
+  height: 50px; /* Adjust profile picture height */
+  width: 50px; 
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.user-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.user-name {
+  margin: 0;
+  font-size: 16px;
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+.user-role {
+  margin: 0;
+  font-size: 14px;
+  color: #888;
+}
+
+.navbar-links {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  margin-top: 100px ;
+}
+
+.nav-link {
+  color: #333;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 10px 0;
+  padding: 10px 20px;
+  width: 100%;
+  text-align: left;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  display: flex;
+  align-items: center;
+}
+
+.nav-link i {
+  margin-right: 10px;
+}
+
+.nav-link:hover {
+  background-color: #f5f5f5;
+  color: #4a96e6;
+}
+
+.nav-link:last-child {
+  margin-top: auto; /* Push logout to the bottom */
+}
+.nav_logo{
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+  margin-left: 130px;
+  border-radius: 62% 38% 100% 0% / 64% 30% 70% 36% ;
+}

@@ -1,0 +1,148 @@
+.medicine-page {
+  padding: 20px;
+  margin-top: 130px;
+  width: 90%;
+  margin-left: 200px;
+}
+
+.medicine-header {
+  display: flex;
+  justify-content: flex-start; /* Align items to the start */
+  align-items: center;
+  margin-bottom: 20px;
+  gap: 10px; /* Add space between buttons */
+}
+
+.medicine-header h1 {
+  font-family: 'Lato', sans-serif;
+  margin-right: auto; /* Pushes buttons to the right */
+  padding-left: 190px;
+  
+}
+
+.medicine-header button {
+  padding: 5px 10px; /* Adjust button padding */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 0.9em; /* Adjust font size */
+  height: 40px; /* Consistent button height */
+  width: 150px;
+}
+
+.show-cart-btn {
+  background-color: #28a745;
+  color: #fff;
+  
+}
+
+.show-cart-btn:hover {
+  background-color: #218838;
+}
+
+.order-btn {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.order-btn:hover {
+  background-color: #0056b3;
+}
+
+.medi_hide {
+  margin-right: 200px;
+  color: #fff;
+ 
+}
+
+.medi_hide:hover {
+  background-color: #138496;
+}
+
+.medicine-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-left: 200px;
+  margin-top: 20px;
+}
+
+.medicine-card {
+  width: calc(20% - 10px);
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.medicine-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.medicine-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.medicine-info h2 {
+  font-size: 1.2em;
+  margin: 5px 0;
+}
+
+.medicine-info p {
+  font-size: 0.9em;
+  color: #666;
+  margin: 5px 0;
+}
+
+.medicine-pricing {
+  margin: 10px 0;
+}
+
+.medicine-price {
+  font-size: 1em;
+  color: #333;
+}
+.customer-id-input {
+  margin-right: 10px;
+  padding: 5px;
+  font-size: 16px;
+  
+}
+
+
+.file-input {
+  margin-bottom: 10px;
+}
+
+
+
+
+.customer-id-input {
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.file-label {
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.file-input {
+  height: 20px;
+}
+
+

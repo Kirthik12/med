@@ -1,0 +1,231 @@
+.home-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #f0f0f0;
+  color: #333;
+  font-family: 'Arial', sans-serif;
+  border-radius: 20px;
+  width: 100vw;
+  height: 100vh;
+  animation: fadeIn 2s ease-in-out;
+}
+
+.header_hom {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 70%;
+  max-width: 1200px;
+  padding: 2rem;
+  background: #fff;
+  border-radius: 20px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  margin-top: 50px;
+  animation: slideDown 1s ease-in-out;
+  background-color: rgb(251, 251, 252);
+}
+
+.logo-container {
+  position: fixed;
+  top: 1rem; /* Adjust this value to position the logo vertically */
+  right: 1rem; /* Adjust this value to position the logo horizontally */
+  z-index: 1000; /* Ensures the logo stays on top */
+}
+
+.logo {
+  width: 100px; /* Adjust size as needed */
+  height: auto;
+  margin-left: 1375px;
+  border-radius: 62% 38% 100% 0% / 73% 30% 70% 27% ;
+  box-shadow: 2px 2px 2px 3px rgb(236, 238, 240);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.logo:hover {
+  transform: scale(1.1);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+.button-container {
+  position: fixed;
+  right: 2rem; /* Adjust this value to position the buttons horizontally */
+  top: 50%; /* Centers the buttons vertically */
+  transform: translateY(-50%); /* Adjust to vertically center the buttons */
+  display: flex;
+  flex-direction: column; /* Stack the buttons vertically */
+  gap: 1rem;
+}
+
+.btn {
+  padding: 0.8rem 1.5rem;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.3s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.btn-register {
+  background: #007bff;
+  animation: fadeIn 2s ease-in-out;
+}
+
+.btn-login {
+  background: #28a745;
+  animation: fadeIn 2s ease-in-out;
+}
+
+.btn:hover {
+  transform: scale(1.05);
+}
+
+.btn:focus {
+  outline: none;
+}
+
+.header_hom h1 {
+  font-size: 3.5rem;
+  color: #333;
+  margin: 0;
+  animation: fadeIn 2s ease-in-out;
+}
+
+.main-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 70%;
+  max-width: 1200px;
+  padding: 2rem;
+  background: #fff;
+  border-radius: 20px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  margin-top: 2rem;
+  animation: fadeIn 2s ease-in-out;
+}
+
+.intro-section {
+  width: 100%;
+  margin-bottom: 2rem;
+  text-align: center;
+  animation: slideUp 1s ease-in-out;
+}
+
+@keyframes slideUp {
+  0% {
+    transform: translateY(50px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.features-section {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  margin-bottom: 2rem;
+  margin-top: 30px;
+  animation: slideUp 1s ease-in-out;
+  color: black;
+}
+
+.features-section h2{
+  color: black;
+}
+
+.feature {
+  color: rgb(2, 2, 2);
+  border-radius: 20px;
+  padding: 1.5rem;
+  width: 30%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  background-color: rgb(248, 248, 252);
+}
+.feature h2{
+  color: black;
+}
+
+.feature:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+.contact-section {
+  width: 100%;
+  text-align: center;
+  margin-top: 2rem;
+  animation: fadeIn 2s ease-in-out;
+  background-color: rgb(250, 250, 253);
+}
+
+.contact-icons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  background-color: rgb(250, 250, 252);
+}
+
+.contact-icons a {
+  color: #333;
+  transition: color 0.3s ease;
+}
+
+.contact-icons a:hover {
+  color: #007bff;
+}
+
+.footer_hom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  max-width: 1200px;
+  padding: 1rem;
+  background: rgb(244, 244, 247);
+  width: 90vw;
+  border-radius: 20px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  margin-top: 2rem;
+  text-align: center;
+  animation: fadeIn 2s ease-in-out;
+}
+
+.footer_hom p {
+  color: #333;
+  margin: 0;
+}
+
+.hom_titleee {
+  font-family: 'Lato', sans-serif;
+  color: white;
+}
+
+.hom_about_title {
+  font-family: 'Lato', sans-serif;
+}
+
+.feature h2 {
+  font-family: 'Lato', sans-serif;
+  color: white;
+}
+
+.medicines-section h2 {
+  font-family: 'Lato', sans-serif;
+}
+  
+.medicines-section strong {
+  font-family: 'Lato', sans-serif;
+}
+
+.contact-section h2 {
+  font-family: 'Lato', sans-serif;
+}
